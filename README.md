@@ -3,7 +3,7 @@
 1. Clone the repository `git clone https://qonand@bitbucket.org/qonand/homework19.git`
 2. Run `docker-compose up -d --build` in the project folder
 
-# How to test replication
+# How to test sharding
 1. Login to the postgres-b container with help the command `docker-compose exec postgres-b bash`
 2. Login to postgres server with help the command `psql --username user --dbname=mydb`
 3. Sead source data with help the query
